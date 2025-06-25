@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SKK CONCEPT</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: url('https://caspian-wp-content.s3.eu-west-1.amazonaws.com/uploads/2022/03/shutterstock_1175277427-scaled.jpg') no-repeat center center/cover;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    .logo-container span {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .video-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .video-row iframe {
+      flex: 1 1 400px;
+      height: 220px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .center-btn {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .center-btn a {
+      background-color: #1f7aff;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+      }
+
+      .video-row {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="https://yt3.googleusercontent.com/cO7g-qQfHNqOpMVrISY8-C8t6OOXLgwQfA4KlgNPysPQF-Q0Fr6_Ahjh_wQ5_7kEolMurCsuMw=s160-c-k-c0x00ffffff-no-rj" alt="SKK Logo" />
+      <span>SKK CONCEPT</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#videos">Videos</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#course">Course</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Real Trading. Honest Learning.</h2>
+    <p>SKK CONCEPT – where strategy meets integrity.</p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About SKK CONCEPT</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      SKK CONCEPT is known for transparent, strategic trading and consistent guidance to new traders. 
+      With sharp analysis and simple explanation, he ensures clarity in every trade.
+    </p>
+  </section>
+
+  <section id="videos">
+    <h2 class="section-title">Latest YouTube Videos</h2>
+    <div class="video-row">
+      <iframe src="https://www.youtube.com/embed/ySvKfmKu66A" title="Video 1" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/cGYQCrcIA74" title="Video 2" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="youtube">
+    <h2 class="section-title">Subscribe on YouTube</h2>
+    <p style="text-align:center;">Learn directly from SKK CONCEPT – trade breakdowns, market insights, and more.</p>
+    <div class="center-btn">
+      <a href="https://www.youtube.com/feed/subscriptions/UCwdisGdYnlZcQRUcj1IOCtw" target="_blank">Visit Channel</a>
+    </div>
+  </section>
+
+  <section id="course">
+    <h2 class="section-title">Upcoming Course</h2>
+    <p style="text-align:center;">Soon launching a practical course – stay tuned!</p>
+    <div class="center-btn">
+      <a href="#">Join Waitlist</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SKK CONCEPT. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
